@@ -16,3 +16,19 @@
 
 if __name__ == "__main__":
     pass
+
+
+import pyodbc
+def connect_to_database(self):
+        """
+        Connect to our SQL Server instance
+        @return connection object
+        """
+        conn = pyodbc.connect(
+            'Driver={SQL Server};'
+            'Server=lcb-sql.uccob.uc.edu\\nicholdw;'
+            'Database=GroceryStoreSimulator;'
+            'uid=IS4010Login;'
+            'pwd=P@ssword2;'
+        )
+        return conn
