@@ -124,7 +124,7 @@ ipch/
 # TFS 2012 Local Workspace
 $tf/
 
-# Guidance Automation Toolkit
+# Guidance Automation toolkit
 *.gpState
 
 # ReSharper is a .NET coding add-in
@@ -132,7 +132,7 @@ _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
-# TeamCity is a build add-in
+# TeamCity is a build in add in
 _TeamCity*
 
 # DotCover is a Code Coverage Tool

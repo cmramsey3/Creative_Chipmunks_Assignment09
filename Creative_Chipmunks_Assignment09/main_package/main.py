@@ -25,11 +25,12 @@ if __name__ == "__main__":
                                  'Database=GroceryStoreSimulator;'
                                  'uid=IS4010Login;'
                                  'pwd=P@ssword2;'
-                                 ) # Given Database Doc String
+                                 ) # Given Database Doc String 
 
     #1
-    products = db_manager.fetch_products()
-
+    products = db_manager.fetch_products() 
+     
+     
     #2
     selected_product = random.choice(products)
 
@@ -45,7 +46,7 @@ if __name__ == "__main__":
     brand_name = db_manager.get_brand_name(brand_id)
 
     #6
-    items_sold = db_manager.get_items_sold(product_id)
+    items_sold = db_manager.get_items_sold(product_id) 
 
     #7
     print(f"{description} from {manufacturer_name} under the {brand_name} brand has sold {items_sold} units.")
