@@ -25,11 +25,12 @@ if __name__ == "__main__":
                                  'Database=GroceryStoreSimulator;'
                                  'uid=IS4010Login;'
                                  'pwd=P@ssword2;'
-                                 ) # Given Database Doc String
+                                 ) # Given Database Doc String 
 
     #1
-    products = db_manager.fetch_products()
-
+    products = db_manager.fetch_products() 
+     
+     
     #2
     selected_product = random.choice(products)
 
